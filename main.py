@@ -35,7 +35,7 @@ class Contacto(BaseModel):
 
 @app.get("/")
 def inicio():
-    return {'Developer by':'Patricio Vargas f:', "BD": "SQLite3"}
+    return {'Developer by':'Miguel Lira :', "BD": "SQLite3"}
 
 # Rutas para las operaciones CRUD
 
